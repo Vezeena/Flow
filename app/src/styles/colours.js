@@ -1,0 +1,18 @@
+export const colours = {
+  background: "#FFFFFF",
+  primary: "#5B84BF",
+  light: "#D6E4F6",
+  cards: "#F5F4ED",
+  success: "#5B8C3E",
+  successLight: "#EAF3E4",
+  amber: "#BC852A",
+  amberLight: "#F6EEDF",
+  red: "#A8392A",
+  redLight: "#F7ECEC",
+  textPrimary: "#2B2B2B",
+  textLight: "#888787",
+  borderLight: "#dcdcdc",
+  borderDark: "#C4C4C4",
+  borderDarkest: "#989792",
+  ripple: "rgba(0,0,0,0.1)",
+};

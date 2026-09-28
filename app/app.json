@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Flow",
+    "slug": "flow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vezeena.flow"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-sqlite",
+      [
+        "expo-location"
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 33
+          }
+        }
+      ],
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#12446F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.vezeena.flow",
+      "googleServicesFile": "./google-services.json",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a9c4bcb-c112-435a-b17a-6842ce71f48b"
+      }
+    }
+  }
+}

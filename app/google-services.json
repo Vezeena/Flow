@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173273276284",
+    "project_id": "flow-8974d",
+    "storage_bucket": "flow-8974d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173273276284:android:6027280483d7238a134ef9",
+        "android_client_info": {
+          "package_name": "com.vezeena.flow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA70kU6c578KpTrllAdZU9wAmfGfvvFt3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "flow-root",
+  "private": true,
+  "workspaces": [
+    "app/",
+    "server/"
+  ],
+  "scripts": {
+    "start:server": "npm start -w server",
+    "restart:server": "npm run restart -w server",
+    "stop:server": "npm run stop -w server",
+    "delete:server": "npm run delete -w server",
+    "logs:server": "npm run logs -w server",
+    "start:app": "npm start -w app",
+    "android:app": "npm run android -w app",
+    "ios:app": "npm run ios -w app",
+    "web:app": "npm run web -w app",
+    "prebuild:clean:app": "npm run prebuild:clean -w app",
+    "lint": "oxlint",
+    "format": "oxfmt",
+    "test": "npm test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0"
+  }
+}
